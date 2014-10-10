@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_height="wrap_content"
+		android:layout_alignParentTop="true" android:layout_width="wrap_content"
+		android:text="@string/promptInput" android:id="@+id/promptInput"></TextView>
+	<EditText android:layout_below="@+id/promptInput"
+		android:layout_height="wrap_content" android:layout_alignLeft="@+id/promptInput"
+		android:layout_width="match_parent" android:id="@+id/dirNameInput"></EditText>
+	<Button android:layout_below="@+id/dirNameInput"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_alignLeft="@+id/dirNameInput" android:id="@+id/setting"
+		android:text="@string/setting"></Button>
+	<Button android:layout_below="@+id/setting"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:layout_alignLeft="@+id/setting" android:id="@+id/start"
+		android:text="@string/start"></Button>
+	<Button android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/start" android:layout_width="wrap_content"
+		android:layout_alignTop="@+id/start" android:layout_alignBottom="@+id/start"
+		android:id="@+id/finish" android:text="@string/finish"></Button>
+	<TextView android:layout_below="@+id/start"
+		android:layout_alignLeft="@+id/start" android:layout_width="match_parent"
+		android:id="@+id/status" android:layout_height="wrap_content"></TextView>
+	<TextView android:layout_height="wrap_content"
+		android:layout_below="@+id/status" android:layout_alignLeft="@+id/status"
+		android:id="@+id/statusAcc" android:layout_width="match_parent"></TextView>
+	<TextView android:layout_height="wrap_content"
+		android:layout_below="@+id/statusAcc" android:layout_alignLeft="@+id/statusAcc"
+		android:id="@+id/statusMag" android:layout_width="match_parent"></TextView>
+</RelativeLayout>

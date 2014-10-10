@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/scrollView1"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:id="@+id/linearLayout1"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView android:id="@+id/promptAcc" android:layout_height="wrap_content"
+			android:text="@string/promptAcc" android:layout_width="match_parent"></TextView>
+		<RadioGroup android:id="@+id/rateAcc" android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<RadioButton android:layout_width="wrap_content"
+				android:id="@+id/fastestAcc" android:layout_height="wrap_content"
+				android:checked="true" android:text="@string/fastest"></RadioButton>
+			<RadioButton android:layout_width="wrap_content"
+				android:id="@+id/gameAcc" android:layout_height="wrap_content"
+				android:text="@string/game"></RadioButton>
+			<RadioButton android:layout_width="wrap_content"
+				android:id="@+id/normalAcc" android:layout_height="wrap_content"
+				android:text="@string/normal"></RadioButton>
+			<RadioButton android:layout_width="wrap_content"
+				android:id="@+id/uiAcc" android:layout_height="wrap_content"
+				android:text="@string/ui"></RadioButton>
+		</RadioGroup>
+		<TextView android:id="@+id/promptMag" android:layout_height="wrap_content"
+			android:text="@string/promptMag" android:layout_width="match_parent"></TextView>
+		<RadioGroup android:id="@+id/rateMag" android:layout_width="match_parent"
+			android:layout_height="match_parent">
+			<RadioButton android:layout_width="wrap_content"
+				android:id="@+id/fastestMag" android:layout_height="wrap_content"
+				android:checked="true" android:text="@string/fastest"></RadioButton>
+			<RadioButton android:layout_width="wrap_content"
+				android:id="@+id/gameMag" android:layout_height="wrap_content"
+				android:text="@string/game"></RadioButton>
+			<RadioButton android:layout_width="wrap_content"
+				android:id="@+id/normalMag" android:layout_height="wrap_content"
+				android:text="@string/normal"></RadioButton>
+			<RadioButton android:layout_width="wrap_content"
+				android:id="@+id/uiMag" android:layout_height="wrap_content"
+				android:text="@string/ui"></RadioButton>
+		</RadioGroup>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:text="@string/promptGPSTime"
+			android:id="@+id/promptGPSTime"></TextView>
+		<EditText android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:text="0" android:id="@+id/minGPSTime"></EditText>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:text="@string/promptGPSDist"
+			android:id="@+id/promptGPSDist"></TextView>
+		<EditText android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:text="0" android:id="@+id/minGPSDist"></EditText>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:text="@string/promptNetTime"
+			android:id="@+id/promptNetTime"></TextView>
+		<EditText android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:text="0" android:id="@+id/minNetTime"></EditText>
+		<TextView android:layout_height="wrap_content"
+			android:layout_width="match_parent" android:text="@string/promptNetDist"
+			android:id="@+id/promptNetDist"></TextView>
+		<EditText android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:text="0" android:id="@+id/minNetDist"></EditText>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/doneSetting"
+			android:text="@string/doneSetting"></Button>
+	</LinearLayout>
+</ScrollView>

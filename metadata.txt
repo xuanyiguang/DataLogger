@@ -1,0 +1,20 @@
+Format for the current DataLogger
+
+User will enter the folder to save the data.
+The program will create three separate files "Acc.csv", "Mag.csv", "Loc.csv" in the folder.
+
+The format for Acc and Mag is similar:
+column 1: timestamp (in Unix time in milliseconds) from System.currentTimeMillis()
+column 2: sensor type (1 for Acc, 2 for Mag)
+column 3: reading along the x-axis from SensorEvent.values[0] (in either m/s^2 or uT)
+column 4: reading along the y-axis from SensorEvent.values[1] (in either m/s^2 or uT)
+column 5: reading along the z-axis from SensorEvent.values[2] (in either m/s^2 or uT)
+column 6: accuracy from SensorEvent.accuracy
+
+The format for Loc is as follows:
+column 1: timestamp (in Unix time in milliseconds) from Location.getTime();
+column 2: timestamp (in Unix time in milliseconds) from System.currentTimeMillis();
+column 3: provider (1 for gps, or 2 for network)
+column 4: latitude
+column 5: longitude
+column 6: accuracy

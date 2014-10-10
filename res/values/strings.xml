@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="promptInput">Name of the dataset to save as:</string>
+    <string name="app_name">Data Logger with Setting</string>
+    <string name="start">Start</string>
+    <string name="finish">Finish</string>
+    <string name="promptAcc">Accelerometer Sampling Rate:</string><string name="promptMag">Magnetometer Sampling Rate:</string><string name="promptGPSTime">Minimal Time (sec) to Sample GPS Location:</string><string name="promptGPSDist">Minimal Distance (m) to Sample GPS Location:</string><string name="promptNetTime">Minimal Time (sec) to Sample Network-based Location:</string><string name="promptNetDist">Minimal Distance (m) to Sample Network-based Location:</string>
+    <string name="fastest">SENSOR_DELAY_FASTEST</string><string name="game">SENSOR_DELAY_GAME</string><string name="normal">SENSOR_DELAY_NORMAL</string><string name="ui">SENSOR_DELAY_UI</string>
+    <string name="doneSetting">Done Setting!</string>
+    <string name="setting">Setting</string>
+</resources>
