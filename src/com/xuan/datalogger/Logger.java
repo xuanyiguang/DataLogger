@@ -1,9 +1,11 @@
-package com.xuan.dataloggerwithsetting;
+package com.xuan.datalogger;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Calendar;
+
+import com.xuan.dataloggerwithsetting.R;
 
 import android.app.Activity;
 import android.content.Context;

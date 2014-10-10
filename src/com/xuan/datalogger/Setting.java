@@ -1,4 +1,6 @@
-package com.xuan.dataloggerwithsetting;
+package com.xuan.datalogger;
+
+import com.xuan.dataloggerwithsetting.R;
 
 import android.app.Activity;
 import android.content.Intent;
